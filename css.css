@@ -1,0 +1,104 @@
+	html, body { height: 100%; width: 100%; margin: 0; }
+	body{
+		font:1em "helvetica",sans-serif; 
+		line-height: 1.4;
+		font-weight: 200;
+		font-size: 15px;
+		
+	}
+	h1{
+		margin-top: 0px;
+		font-family: Impact, Charcoal, sans-serif;
+	}
+	
+.nav{
+	height: 50px;
+	width: 100%;
+	background-color: grey;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 99;
+}
+.nav li{
+ float: left;
+ list-style-type: none;
+ margin-right: 50px;
+ line-height: 50px;
+
+}
+.nav a{
+	color: white;
+}
+
+
+
+
+
+
+.head{
+
+	height: 100%;
+	width: 100%;
+	background-image:url("images/Laptop coffee cup agenda.JPg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.heading{
+	color: white;
+	text-align: center;
+	padding-top: 10%;
+}
+.section1{
+	height:50%;
+	width:100%;
+	background-color: #D3D3D3;
+	background-image:url("images/red wood.JPg");  
+	background-size: 100% 100%;
+	padding: 1%;
+	color: #ffffff;
+	font-family: cursive;
+	font-size: 15px;
+}
+.section1 p{
+	text-align: left;
+}
+.section2{
+	height:50%;
+	width:100%;
+	background-image:url("images/3d-wallpapers-computer-keyboard-wallpaper-wallpaper-33573.JPg");
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+}
+
+.section3{
+	height:50%;
+	width:100%;
+	background-image: url(images/tileable_wood.JPg); 
+	color: #ffffff;
+	padding: 1%;
+	font-family: cursive;
+	font-size: 18px;
+}
+
+.section4{
+	height:50%;
+	width:100%;
+	padding: 5px;
+	background-image:url("images/8.JPg"); 
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+}
+.profile{
+	
+	margin-left:12%; 
+	position: relative;
+	margin-top:-5%;
+	border-radius: 40%; 
+}
+.link :hover{
+	border-radius: 50%;
+}
+
