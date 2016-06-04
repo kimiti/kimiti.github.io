@@ -4,6 +4,8 @@
 		line-height: 1.4;
 		font-weight: 200;
 		font-size: 15px;
+		color: white;
+		font-size: 20px;
 		
 	}
 	h1{
@@ -56,7 +58,7 @@
 	width: 50%;
 	float: left;
 	background-color: black;
-	background-image:url("images/Laptop coffee cup.JPg");
+	background-image:url("images/Typing-computer.JPg");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -65,7 +67,7 @@
 	height: 100%;
 	width: 50%;
 	float: right;
-	background-color: yellow;
+	background-color: ;
 	text-align: center;
 
 }
@@ -73,9 +75,8 @@
 	height: 100%;
 	width: 50%;
 	float: left;
-	background-color: grey;
-	background-image:url("images/download.JPg");
-	background-size: cover;
+	background-image:url("images/Laptop coffee cup.JPg");
+	background-size: 100% 100%;
 	background-attachment: fixed;
 }
 
@@ -83,15 +84,15 @@
 	height: 100%;
 	width: 50%;
 	float: right;
-	background-color: grey;
+	background-color: ;
 	text-align: center;
+	
 }
 .section5{
 	height: 100%;
 	width: 50%;
 	float: left;
-	background-color: grey;
-	background-image:url("images/Typing_computer_screen_reflection.JPg");
+	background-image:url("images/keyboard.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -100,6 +101,6 @@
 	height: 100%;
 	width: 50%;
 	float: right;
-	background-color: yellow;
-
+	background-color: ;
+	text-align: center;
 }
