@@ -7,8 +7,9 @@ h1{
 }
 .heading{
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 15%;
 	display: block;
+	color: #000000;
 
 }
 .section1{
@@ -16,7 +17,7 @@ h1{
 	width: 100%;
 	
 	
-	background-image:url("images/autumnal_scene.JPg");
+	background-image:url("images/autumnal_scene.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -25,13 +26,12 @@ h1{
 	height: 50%;
 	width: 100%;
 	background-color: #DCDCDC;
-	text-align: center;	
-	margin-top: -1.5%;
+	margin-top: -1.1%;
 }
 .section3{
 	height: 50%;
 	width: 100%;
-	background-image:url("images/landscape.JPg");
+	background-image:url("images/landscape.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -40,7 +40,6 @@ h1{
 	height: 50%;
 	width: 100%;
 	background-color: #A9A9A9;
-	text-align: center;
 	margin-top: -1.6%;
 }
 
@@ -48,7 +47,7 @@ h1{
 	height: 50%;
 	width: 100%;
 	background-color: grey;
-	background-image:url("images/come.JPg");
+	background-image:url("images/come.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
