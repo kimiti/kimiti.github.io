@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.header{
+height: 100%;
+width: 100%;
+background-color: yellow;
+background-image: url('images/2.jpg');
+background-size: contain;
+background-attachment: fixed;
+}
+.pic{
+	margin-top: 30px;
+	border-radius: 50%;
+
+}
+.profile{
+	height: 300px;
+	width: 700px;
+	background-color: grey;
+	float: left;
+	margin-left:33%;
+	margin-top:-400px ;
+}
+.content{
+height: 100%;
+width: 100%;
+background-color: green;
+background-image: url('images/3.jpg');
+background-size: contain;
+background-attachment: fixed;
+}
+.footer{
+height: 100%;
+width: 100%;
+background-color: blue;	
+padding-top: 40px;
+box-sizing: border-box;
+}
+
+........................................
+.contant
+{
+	height:100%; 
+	width:100%;
+	background-color: grey;
+}
+
+.form{
+	height:90%; 
+	width:40%;
+	background-color: #696969; 
+	margin: auto;
+	text-align: center;
+}
+
+
+.enter {
+  background-color: transparent;
+  margin: 10px;
+  height: 30px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #CCC;
+  color: #000;
+  box-sizing: border-box;
+  font-family: 'Arvo';
+  font-size: 18px;
+  padding: 10px 0px;
+  position: relative;
+  	&:focus 
+  	{
+    outline: none;    
+  	}
+}
+
+
+
+
+
+
+
+.first{
+	margin-top: 60px;
+}
+.submit{
+	height: 50px;
+	width: 120px;
+	background-color: ;
+	margin-left:0px;
+	margin-top: 20px;
+
+}
+.prof{
+	height: 200px;
+	width: 100%;
+	background-color: ;
+	margin-top: 20px;
+}
+
+.lef{
+	height:;
+	width: 175px;
+	background-color: green;
+	float: left;
+	margin-top: 100px;
+	border: 1px solid black;
+}
+.rig{
+	height: ;
+	width: 175px;
+	background-color: green;
+	float: right;
+	margin-top: 100px;
+	border: 1px solid black;
+}
+.contant p{
+	float: left;
+	margin-right: 30px;
+	margin-top: 20px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: black;
+
+}
+.facebook{
+	margin-left: 100px;
+}
+

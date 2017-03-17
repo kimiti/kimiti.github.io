@@ -1,0 +1,172 @@
+
+
+ * Housekeeping
+ */
+body {
+    font: normal 16px/1.5 Arial, sans-serif;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0 0 .5em;
+}
+
+.container {
+    margin: ;
+    max-width: 200px;
+    float: left;
+    margin: 10px;
+
+
+}
+
+/*
+ * Caption component
+ */
+.caption {
+    position: relative;
+    overflow: hidden;
+
+    /* Only the -webkit- prefix is required these days */
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+
+.caption::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+
+.caption:hover::before {
+    background: rgba(0, 0, 0, .5);
+}
+
+.caption__media {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;  
+     height: 200px;
+    width: 200px; 
+}
+
+.caption__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+
+.caption__overlay__title {
+    -webkit-transform: translateY( -webkit-calc(-100% - 10px) );
+            transform: translateY( calc(-100% - 10px) );
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay__title {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+
+
+.input{
+    height: 100px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+// NOTE: Base styles and toolbox stylesheets included
+
+$c-background: #191919;
+$c-socialLinks: #fff;
+$l-socialLinks-iconSize: unitSize(2);
+
+
+// ==================================================
+// Basic
+//
+
+body {
+  background-color: $c-background;
+}
+
+
+// ==================================================
+// Social links wrapper
+//
+
+.SocialLinks {
+  @extend %resetList;
+  color: $c-socialLinks;
+  li {
+    display: inline-block;
+  }
+}
+
+
+// ==================================================
+// Social links
+//
+
+.SocialLink {
+  color: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.28rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: unitSize(1) unitSize(1.5);
+}
+
+.SocialLink-icon {
+  display: none;
+  width: $l-socialLinks-iconSize;
+  height: $l-socialLinks-iconSize;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+// 
+// Breakpoint: screen <= xs
+// 
+// Hide text and show icons only on small screens
+
+@include media-breakpoint-down(xs) {
+  
+  .SocialLink-icon {
+    display: block;
+  }
+  
+  .SocialLink-text {
+    @include visuallyhidden();
+  }
+  
+}
