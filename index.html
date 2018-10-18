@@ -1,3 +1,82 @@
+<!-- 
+
+<?php
+  define('DB_NAME','id6088347_alumniregistrationform');
+	define('DB_USER','id6088347_kimitikevin');
+	define('DB_PASSWORD','Lunaralpha777');
+	define('DB_HOST','localhost');
+
+
+
+// Create connection
+$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+
+function output_errors($errors){
+	return '<h3><ul><li>' . implode('</li><li>',$errors) . '</li></ul></h3>';
+}
+
+$errors = array();
+$success = array();
+
+
+$fname  = "";
+$lname  = "";
+$YearOfAdmin  = "";
+$sports  = "";
+
+$hobbies  = "";
+$status  = "";
+$position  = "";
+$residence  = "";
+$organisation  = "";
+$awards  = "";
+$benefitsfromscholarships  = "";
+
+if( isset($_POST['submit']) ){
+   $fname = $_POST['fname'];
+   $lname = $_POST['lname'];
+   
+   $YearOfAdmin = $_POST['YearOfAdmin'];
+   $sports = $_POST['sports'];
+
+   $hobbies = htmlentities( $_POST['hobbies'] ) ;
+   $status = htmlentities($_POST['status']) ;
+   $position = htmlentities($_POST['position']) ;
+   $residence = htmlentities($_POST['residence']) ;
+   $organisation = htmlentities($_POST['organisation'] ) ;
+   $awards = htmlentities( $_POST['awards']) ;
+   $benefitsfromscholarships = htmlentities($_POST['benefitsfromscholarships']) ;
+
+}
+
+if( empty($fname) || empty($lname) || empty($fname) || empty($YearOfAdmin) || empty($sports) ||
+   empty($hobbies) || empty($status) || empty($position) || empty($residence) || empty($organisation) || empty($awards) || empty($benefitsfromscholarships)  ){
+    $errors[]='please fill in all the forms';
+} else{
+  $sql = "INSERT INTO alumniusers (fname, lname, YearOfAdmission, hobbies, Employment_status ,position ,residence , organisation,awards, 	sports, benefits_from_scholarship)
+VALUES ('$fname', '$lname', '$YearOfAdmin' , '$hobbies', '$status', '$position', '$residence', '$organisation', '$awards', '$sports' , '$benefitsfromscholarships')";
+
+  if ($conn->query($sql) === TRUE) {
+    $success[]="New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+
+  $conn->close();
+
+}
+
+
+ 
+?> -->
+
+
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -5,68 +84,81 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>alumni registration form</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
   
 </head>
 
 <body>
-  <div class="title">
-    <h1>alumni registration</h1>
-  </div>
+    <div class="wrap"> 
+ <header>
+    <div class="title">
+        <h1>alumni registration</h1>
+      </div>
+ </header>
   <div class="container">
     <div class="left"> </div>
     <div class="right">
       <div class="formBox">
-        <form>
-          <p>First Name</p>
-          <input type="text" name="" placeholder="First Name">
-          <p>Last Name</p>
-          <input type="text" name="" placeholder="Last Name">
-          <p>Email</p>
-          <input type="text" name="" placeholder="Email">
-          <p>Year Of Admin</p>
-          <input type="text" name="" placeholder="Year Of Admin">
-          <p>Sports</p>
-          <input type="text" name="" placeholder="Sports">
-          <p>Hobbies</p>
-          <input type="password" name="" placeholder="Hobbies">
-          <input class="Btnnext" type="button" name="" value="NEXT">
-          <!-- <a href="#">forget password</a> -->
-        </form>
+        <form id="FirstForm">
+            <div class="row">
+              <div class="">
+                <label for="exampleEmailInput">First Name</label>
+                <input class="u-full-width" type="text"  name="fname" placeholder="First Name" id="exampleEmailInput">
+                <label for="exampleEmailInput">Last Name</label>
+                <input class="u-full-width" type="text" name="lname"  placeholder="Last Name" id="exampleEmailInput">
+                <label for="exampleEmailInput">Email Address</label>
+                <input class="u-full-width" type="text" name="email" placeholder="Email Address" id="exampleEmailInput">
+                <label for="exampleEmailInput">Year Of Admision</label>
+                <input class="u-full-width" type="text" name="YearOfAdmin" placeholder="Year Of Admision" id="exampleEmailInput">
+                <label for="exampleEmailInput">Sports/Clubs</label>
+                <input class="u-full-width" type="text" name="sports" placeholder="Sports/Clubs" id="exampleEmailInput">
+                <label for="exampleEmailInput">hobbies</label>
+                <input class="u-full-width" type="text" name="hobbies" placeholder="hobies" id="exampleEmailInput">
+              </div>
+              
+            </div>
+            
+            <input class="button-primary Btnnext" type="button" value="Next">
+          </form>
       </div>
     </div>
 
     <div class="right-right">
         <div class="formBox">
-          <form>
-            <p>Marital Status</p>
-          <input type="text" name="" placeholder="Marital Status">
-          <p>Position</p>
-          <input type="text" name="" placeholder="Position">
-          <p>Residence</p>
-          <input type="text" name="" placeholder="Residence">
-          <p>Organisation</p>
-          <input type="text" name="" placeholder="Organisation">
-          <p>Awards</p>
-          <input type="text" name="" placeholder="Awards">
-          <p>Scholarships</p>
-          <input type="password" name="" placeholder="Scholarships">
-          <input class="Btnprev" type="button" name="" value="Back">
-          <input class="Btnnext" type="button"  type="submit" name="" value="SIGN UP">
-          <!-- <a href="#">forget password</a> -->
-          </form>
+            <form id="SecondForm">
+                <div class="row">
+                  <div class="">
+                    <label for="exampleEmailInput">marital status</label>
+                    <input class="u-full-width" type="text"  name="status" placeholder="marital status" id="exampleEmailInput">
+                    <label for="exampleEmailInput">position</label>
+                    <input class="u-full-width" type="text" name="position" placeholder="position" id="exampleEmailInput">
+                    <label for="exampleEmailInput">residence</label>
+                    <input class="u-full-width" type="text"  name="residence" placeholder="residence" id="exampleEmailInput">
+                    <label for="exampleEmailInput">organisation</label>
+                    <input class="u-full-width" type="text" name="organisation" placeholder="organisation" id="exampleEmailInput">
+                    <label for="exampleEmailInput">awards</label>
+                    <input class="u-full-width" type="text"  name="awards"placeholder="awards" id="exampleEmailInput">
+                    <label for="exampleEmailInput">Benefits From Scholarships</label>
+                    <input class="u-full-width" type="text" name="benefitsfromscholarships" placeholder="Benefits From Scholarships" id="exampleEmailInput">
+                  </div>
+                  
+                </div>
+                <input class="button-primary Btnprev" type="button" value="Back">
+                <input class="button-primary" type="button" name="submit" value="Submit">
+              </form>
         </div>
       </div>
 
 
   </div>
-
+</div>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 
-  <script src="js/main.js"></script>
+  <script src="main.js"></script>
 
 </body>
 
