@@ -1,716 +1,252 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-    
-    
-    <head>
-        <meta charset="utf-8">
-        <title>Vanguard</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="favicon.ico">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/main.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#index" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="landing-text">
+        <h1>Kevin kimiti</h1>
+        <h6>UI | UX Designer and Web Developer</h6>
+      </div>
+    </header>
 
-        <!--Google Font link-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
-
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/slick-theme.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/fonticons.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/bootsnav.css">
-
-
-        <!--For Plugins external css-->
-        <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
-
-        <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
-
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-
-    <body data-spy="scroll" data-target=".navbar-collapse">
-
-
-        <!-- Preloader -->
-        <div id="loading">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="object" id="object_one"></div>
-                    <div class="object" id="object_two"></div>
-                    <div class="object" id="object_three"></div>
-                    <div class="object" id="object_four"></div>
-                </div>
-            </div>
-        </div><!--End off Preloader -->
-
-
-        <div class="culmn">
-            <!--Home page style-->
-
-
-            <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
-                <!-- Start Top Search -->
-                <div class="top-search">
-                    <div class="container">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                            <input type="text" class="form-control" placeholder="Search">
-                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Top Search -->
-
-                <div class="container">    
-                      
-               
-
-                    <!-- Start Header Navigation -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <a class="navbar-brand" href="#brand">
-
-                            <img src="assets/images/logo.png" class="logo logo-display m-top-10" height="50px" width="150px" alt="">
-                            
-
-                        </a>
-                    </div>
-                    <!-- End Header Navigation -->
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li><a href="#hello">HOME</a></li>                    
-                            <li><a href="#about">ABOUT US</a></li>                    
-                            <li><a href="#fields">FIELDS</a></li>                    
-                            <li><a href="#testimonials">TESTIMONIALS</a></li>                    
-                            <li><a href="#pricing">GALLERY</a></li>                                                    
-                            <li><a href="#contact">CONTANT US</a></li>  
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div>  
-
-            </nav>
-
-
-            <!--Home Sections-->
-
-            <section id="hello" class="home bg-mega">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="main_home">
-                            <div class="home_text">
-                                <h2 class="text-white">CONNECTING  <br />   CLASSROOM THEORIES WITH EXPERIENTIAL LEARNING <br /> 
-                                  <span>  Best-practice study trips globally  </span> </h2>
-                            </div>
-
-                            <div class="home_btns m-top-40">
-                                <a href="" class="btn btn-primary m-top-20">BROWSE TRIPS</a>
-                                <a href="" class="btn btn-default m-top-20"> HOW IT WORKS</a>
-                                <a href="" class="btn btn-default m-top-20"> FAQ'S</a>
-                                <a href="" class="btn btn-default m-top-20"> OUR STORY</a>
-                            </div>
-
-                        </div>
-                    </div><!--End off row-->
-                </div><!--End off container -->
-            </section> <!--End off Home Sections-->
-
-
-             <!--Service Section-->
-             <section id="about" class="service">
-                    <div class="container">
-                        <div class="row">
-                            <div class="main_service roomy-100">
-                                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                                    <div class="head_title text-center">
-                                        <h2>ABOUT</h2>
-                                        <div class="separator_auto"></div>
-                                        <p>Vanguard Ed is your bridge to a global learning experience in your field. </p>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-4">
-                                    <div class="service_item">
-                                        <i class="icofont icofont-light-bulb"></i>
-                                        <h2 class="m-top-30">WHAT</h2>
-                                        <div class="separator_small"></div>
-                                        <p>We develop best-practise visits that take you to leading global hubs in your field,
-                                             designed to enhance your understanding of your area of interest. </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="service_item">
-                                        <i class="icofont icofont-imac"></i>
-                                        <h2 class="m-top-30">HOW</h2>
-                                        <div class="separator_small"></div>
-                                        <p>We connect you with companies,
-                                             start-ups and academia in your hub of interest that expands your understanding of real-life applications in your field </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="service_item">
-                                        <i class="icofont icofont-video"></i>
-                                        <h2 class="m-top-30">WHY</h2>
-                                        <div class="separator_small"></div>
-                                        <p>In a fast changing world, ideas are transforming the way we live.
-                                             Our passion is to provide you with a platform that expands your perspective to help you develop global solutions in your industry.. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--End off row -->
-                    </div><!--End off container -->
-                </section> <!--End off Featured section-->
-
-
-            <!--Video section-->
-            <section id="video" class="video">
-                <div class="overlay"></div>
-                <div class="main_video roomy-100 m-top-100 m-bottom-80 text-center">
-                    <div class="video_text text-center">
-                        <a href="https://www.youtube.com/watch?v=GEtMJsEXlLQ" class="video-link"><span class="fa fa-play"></span></a>
-                    </div>
-                </div>
-            </section><!--End off video section -->
-
-
-           
-
-
-
-           
-
-
-            <!--Impress section-->
-            <section id="fields" class="impress roomy-100">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="main_impress text-center">
-                            <div class="col-sm-8 col-sm-offset-2">
-                                <h2 class="text-white text-uppercase">DESIGNED LEARNING EXPERIENCES</h2>
-                                <p class="m-top-40 text-white">Our one-two week immersive programs aim to bridge the gap between education and industry. We help you transport your subject 
-                                    matter from the classroom and into the world and combine study and culture to provide a valuable all round learning experience.</p>
-
-                                <div class="impress_btns m-top-30">
-                                    <a href="" class="btn btn-primary m-top-20">LEARN MORE </a>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--End off row -->
-                </div><!--End off container -->
-            </section><!-- End off Impress section-->
-
-
-
-
-<!--Portfolio Section-->
-<section id="fields" class="portfolio lightbg">
-<div class="container">
-    <div class="row">
-        <div class="main_portfolio roomy-100">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="head_title text-center">
-                    <h2>EXPLORE YOUR SUBJECT</h2>
-                    <div class="separator_auto"></div>
-                    <p>We deliver Learning Experiences in the following areas of study.. </p>
-                </div>
-            </div>
-
-    <div class="portfolio_content">
-        <div class="col-md-12">
-            <div class="row">
-                
-                <div class="col-md-4 m-top-30">
-                    <div class="portfolio_item portfolio_item2">
-                        <img src="assets/images/vanguard/Business.jpg" alt="" />
-                       <div class="portfolio_details"> <p>  Art & Architecture </p> </div>
-                        <div class="portfolio_hover text-center">
-                            <h6 class="text-uppercase text-white">Title</h6>
-                            <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                            <div class="portfolio_hover_icon">
-                                <a href="assets/images/Portfolio/3.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                <a href=""><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 m-top-30">
-                        <div class="portfolio_item portfolio_item2">
-                            <img src="assets/images/vanguard/Comp-Sci.png" alt="" />
-                            <div class="portfolio_details"> <p>  Business and architecture. </p> </div>
-                            <div class="portfolio_hover text-center">
-                                <h6 class="text-uppercase text-white">Title</h6>
-                                <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                                <div class="portfolio_hover_icon">
-                                    <a href="assets/images/Portfolio/3.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                    <a href=""><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-md-4 m-top-30">
-                    <div class="portfolio_item portfolio_item2">
-                        <img src="assets/images/vanguard/Envi-Scie.jpg" alt="" />
-                        <div class="portfolio_details"> <p> Science and Tech. </p> </div>
-                        <div class="portfolio_hover text-center">
-                            <h6 class="text-uppercase text-white">Title</h6>
-                            <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                            <div class="portfolio_hover_icon">
-                                <a href="assets/images/Portfolio/5.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                <a href=""><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 m-top-30">
-                        <div class="portfolio_item portfolio_item2">
-                            <img src="assets/images/vanguard/Engineering-2.png" alt="" />
-                            <div class="portfolio_details"> <p>  environmental science . </p> </div>
-                            <div class="portfolio_hover text-center">
-                                <h6 class="text-uppercase text-white">Title</h6>
-                                <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                                <div class="portfolio_hover_icon">
-                                    <a href="assets/images/Portfolio/5.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                    <a href=""><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 m-top-30">
-                            <div class="portfolio_item portfolio_item2">
-                                <img src="assets/images/vanguard/Health-Care.png" alt="" />
-                                <div class="portfolio_details"> <p>  health and care. </p> </div>
-                                <div class="portfolio_hover text-center">
-                                    <h6 class="text-uppercase text-white">Title</h6>
-                                    <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                                    <div class="portfolio_hover_icon">
-                                        <a href="assets/images/Portfolio/5.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                        <a href=""><i class="fa fa-search"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 m-top-30">
-                                <div class="portfolio_item portfolio_item2">
-                                    <img src="assets/images/vanguard/Hospitality.png" alt="" />
-                                    <div class="portfolio_details"> <p>  engineering. </p> </div>
-                                    <div class="portfolio_hover text-center">
-                                        <h6 class="text-uppercase text-white">Title</h6>
-                                        <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                                        <div class="portfolio_hover_icon">
-                                            <a href="assets/images/Portfolio/5.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                            <a href=""><i class="fa fa-search"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 m-top-30">
-                                    <div class="portfolio_item portfolio_item2">
-                                        <img src="assets/images/vanguard/IR.jpg" alt="" />
-                                        <div class="portfolio_details"> <p> law and political science. </p> </div>
-                                        <div class="portfolio_hover text-center">
-                                            <h6 class="text-uppercase text-white">Title</h6>
-                                            <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                                            <div class="portfolio_hover_icon">
-                                                <a href="assets/images/Portfolio/5.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                                <a href=""><i class="fa fa-search"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 m-top-30">
-                                        <div class="portfolio_item portfolio_item2">
-                                            <img src="assets/images/vanguard/Media-&-Film.jpg" alt="" />
-                                            <div class="portfolio_details"> <p>  Internal relations </p> </div>
-                                            <div class="portfolio_hover text-center">
-                                                <h6 class="text-uppercase text-white">Title</h6>
-                                                <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                                                <div class="portfolio_hover_icon">
-                                                    <a href="assets/images/Portfolio/5.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                                    <a href=""><i class="fa fa-search"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 m-top-30">
-                                            <div class="portfolio_item portfolio_item2">
-                                                <img src="assets/images/vanguard/Agribusiness.jpg" alt="" />
-                                                <div class="portfolio_details"> <p> Hospitality & tourism. </p> </div>
-                                                <div class="portfolio_hover text-center">
-                                                    <h6 class="text-uppercase text-white">Title</h6>
-                                                    <p class=" text-white">Lorem ipsum dolor sit amet</p>
-                                                    <div class="portfolio_hover_icon">
-                                                        <a href="assets/images/Portfolio/5.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
-                                                        <a href=""><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                
-            </div>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="./assets/img/profile.jpeg" alt="" />
         </div>
-
-                               
-                              
-                             
-                        
-                                
-                            </div>
-
-                        </div>
-                    </div><!--End off row -->
-                </div><!--End off container -->
-            </section><!-- End off Portfolio section-->
-
-
-            <!--Skill Sections-->
-            <section id="skill" class="skill roomy-100">
-                  
-                <div class="container">
-                    <div class="row">
-                        <div class="skill_bottom_content text-center">
-                            <div class="col-md-4">
-                                <div class="skill_bottom_item">
-                                        <i class="fa fa-graduation-cap"></i>
-                                    <h2 class="statistic-counter">5</h2>
-                                    <div class="separator_small"></div>
-                                    <h5><em> PARTNER SCHOOLS</em></h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="skill_bottom_item">
-                                        <i class="fa fa-book"></i>
-                                    <h2 class="statistic-counter">12</h2>
-                                    <div class="separator_small"></div>
-                                    <h5><em> STUDY COURSES</em></h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="skill_bottom_item">
-                                        <i class="fa fa-globe"></i>
-                                    <h2 class="statistic-counter">21</h2>
-                                    <div class="separator_small"></div>
-                                    <h5><em>COUNTRIES VISITED</em></h5>
-                                </div>
-                            </div>
-                          
-                        </div>
-                    </div><!--End off row-->
-                </div><!--End off container -->
-            </section> <!--End off Skill section -->
-
-
-
-            <!--Testimonial Section-->
-           <!-- Testimonials Section -->
-<div id="testimonials">
-        <div class="container">
-          <div class="section-title text-center">
-            <h2>What our client say</h2>
+        <div class="about-details"  data-aos="fade-left" data-aos-delay="600">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
           </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="testimonial">
-                <div class="testimonial-image"> <img src="./assets/images/testimonials/05.jpg" alt=""> </div>
-                <div class="testimonial-content">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-                  <div class="testimonial-meta"> - John Doe </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="testimonial">
-                <div class="testimonial-image"> <img src="./assets/images/testimonials/01.jpg" alt=""> </div>
-                <div class="testimonial-content">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."</p>
-                  <div class="testimonial-meta"> - Johnathan Doe </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="testimonial">
-                <div class="testimonial-image"> <img src="./assets/images/testimonials/02.jpg" alt=""> </div>
-                <div class="testimonial-content">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-                  <div class="testimonial-meta"> - John Doe </div>
-                </div>
-              </div>
-            </div>
-            <div class="row"> </div>
-            <div class="col-md-4">
-              <div class="testimonial">
-                <div class="testimonial-image"> <img src="./assets/images/testimonials/03.jpg" alt=""> </div>
-                <div class="testimonial-content">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-                  <div class="testimonial-meta"> - Johnathan Doe </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="testimonial">
-                <div class="testimonial-image"> <img src="./assets/images/testimonials/04.jpg" alt=""> </div>
-                <div class="testimonial-content">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."</p>
-                  <div class="testimonial-meta"> - John Doe </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="testimonial">
-                <div class="testimonial-image"> <img src="./assets/images/testimonials/05.jpg" alt=""> </div>
-                <div class="testimonial-content">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis."</p>
-                  <div class="testimonial-meta"> - Johnathan Doe </div>
-                </div>
-              </div>
-            </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+            libero, quam voluptate dignissimos recusandae corporis illo tempore.
+            Eum ullam omnis itaque officiis enim officia, delectus blanditiis
+            veniam quibusdam dolorum magnam?Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Distinctio molestias mollitia eaque
+            amet eligendi perspiciatis neque alias maiores, doloribus iusto
+            odit, veniam consequuntur natus, quam aliquid laborum error.
+            Delectus, cumque.
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="" class="icon-link">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="icon-link">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="icon-link">
+                  <i class="fab fa-dribbble-square"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+    </section>
 
-
- 
-        
-
-            <!--Blog Section-->
-            <section id="blog" class="blog">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_blog text-center roomy-100">
-                            <div class="col-sm-8 col-sm-offset-2">
-                                <div class="head_title text-center">
-                                    <h2>RECENT BLOGS</h2>
-                                    <div class="separator_auto"></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                        sed diam nonummy nibh euismod tincidunt tation ullamcorper 
-                                        suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="blog_item m-top-20">
-                                    <div class="blog_item_img">
-                                        <img src="assets/images/Blog/3.jpg" alt="" />
-                                    </div>
-                                    <div class="blog_text roomy-40">
-                                        <h6>PLEASUARE WITHOUT CONSCIENCE</h6>
-                                        <p><em><a href="">May 15, 2016</a> /<a href="">admin</a>/<a href=""> Co-working</a></em></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="blog_item m-top-20">
-                                    <div class="blog_item_img">
-                                        <img src="assets/images/Blog/2.jpg" alt="" />
-                                    </div>
-                                    <div class="blog_text roomy-40">
-                                        <h6>PLEASUARE WITHOUT CONSCIENCE</h6>
-                                        <p><em><a href="">May 15, 2016</a> /<a href="">admin</a>/<a href=""> Co-working</a></em></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="blog_item m-top-20">
-                                    <div class="blog_item_img">
-                                        <img src="assets/images/Blog/3.jpg" alt="" />
-                                    </div>
-                                    <div class="blog_text roomy-40">
-                                        <h6>PLEASUARE WITHOUT CONSCIENCE</h6>
-                                        <p><em><a href="">May 15, 2016</a> /<a href="">admin</a>/<a href=""> Co-working</a></em></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--End off row -->
-                </div><!--End off container -->
-            </section><!-- End off Blog section-->
-
-
-                <!--Subscribe section-->
-                <section id="subscribe" class="subscribe roomy-100 fix m-bottom-30">
-                        <div class="overlay"></div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="main_subscribe text-center">
-                                    <div class="col-sm-8 col-sm-offset-2">
-                                        <h2 class="text-white">JOIN OUR MAILING LIST</h2>
-                                        <p class="m-top-30 text-white">At vero eos et accusamus et iusto odio dignissimos 
-                                            ducimus qui blanditiis praesentium</p>
-                                    </div>
-                                    <div class="col-sm-10 col-sm-offset-1">
-                                        <div class="subscribe_btns m-top-40">
-        
-                                            <form class="form-inline">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" id="inputEmail2" placeholder="Email Address">
-                                                </div>
-                                                <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
-                                            </form>
-                                        </div>
-                                    </div>
-        
-                                </div>
-                            </div><!--End off row -->
-                        </div><!--End off container -->
-                    </section><!-- End off Impress section-->
-        
-        
-
-            <!--Maps Section-->
-            <div class="main_maps text-center fix">
-                <div class="overlay"></div>
-                <div class="maps_text">
-                    <h3 class="text-white" onclick="showmap()">FIND US ON THE MAP <i class="fa fa-angle-down"></i></h3>
-                    <div id="map_canvas" class="mapheight"></div>
-                </div>
-            </div><!-- End off Maps Section-->
-
-
-
-            <!--Contact Us Section-->
-            <section id="contact" class="contact bg-mega fix">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_contact roomy-100 text-white">
-                            <div class="col-md-4">
-                                <div class="rage_widget">
-                                    <div class="widget_head">
-                                        <h3 class="text-white">VANGUARD</h3>
-                                        <div class="separator_small"></div>
-                                    </div>
-                                    <p> <i class="fa fa-phone"></i> +254 202 390 979 <br>
-                                            0718-509200 </p>
-                                            <p> <i class="fa fa-map-marker"></i>+254 202 390 979 <br>
-                                                0718-509200 </p>
-                                                <p> <i class="fa fa-envelope"></i>+254 202 390 979 <br>
-                                                    0718-509200 </p>
-
-                                    <div class="widget_socail m-top-30">
-                                        <ul class="list-inline">
-                                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                                            <li><a href=""><i class="fa fa-vimeo"></i></a></li>
-                                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8 sm-m-top-30">
-                                <form class="" action="subcribe.php">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="form-group"> 
-                                                <input id="first_name" name="first_name" type="text" placeholder="Name" class="form-control" required="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-6">
-                                            <div class="form-group">  
-                                                <input id="phone" name="phone" type="text" placeholder="Email" class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-12">
-                                            <div class="form-group">  
-                                                <textarea class="form-control" rows="6" placeholder="Message"></textarea>
-                                            </div>
-                                            <div class="form-group text-center">
-                                                <a href="" class="btn btn-primary">SEND MESSAGE</a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-                    </div><!--End off row -->
-                </div><!--End off container -->
-            </section><!--End off Contact Section-->
-
-
-            <!-- scroll up-->
-            <div class="scrollup">
-                <a href="#"><i class="fa fa-chevron-up"></i></a>
-            </div><!-- End off scroll up -->
-
-
-            <footer id="footer" class="footer bg-black">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_footer text-center p-top-40 p-bottom-30">
-                            <p class="wow fadeInRight" data-wow-duration="1s">
-                                    © 2018 
-                                <a target="_blank" href="#"> Vanguard Ed</a> 
-                               
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
-
-
-
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Services</h1>
+          <h6>What i can do for you</h6>
         </div>
+        <div class="my-skills">
+          <div class="skill"  data-aos="fade-in" data-aos-delay="300">
+            <div class="icon-container">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h1>Web Design</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
+              distinctio?
+            </p>
+          </div>
+          <div class="skill"  data-aos="fade-in" data-aos-delay="600">
+            <div class="icon-container">
+              <i class="fas fa-code"></i>
+            </div>
+            <h1>Web Developement</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
+              distinctio?
+            </p>
+          </div>
+          <div class="skill"  data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-container">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h1>Product Strategy</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
+              distinctio?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <!-- JS includes -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Porfolio</h1>
+          <h6>View some of my recent work</h6>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img has-margin-right"  data-aos="fade-right" data-aos-delay="300">
+            <img src="./assets/img/portitem1.jpeg" alt="" />
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+            <h6>Web Devlopemnt</h6>
+            <h1>Blog website</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              odit quasi magnam consectetur doloremque ducimus quo eveniet ab
+              impedit velit non consequatur quidem, cupiditate ullam iure,
+              voluptatem at, dolorum quia?
+            </p>
+            <a href="#" class="cta">View details</a>
+          </div>
+        </div>
+        <div class="portfolio-item" >
+          <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+            <h6>Web Design</h6>
+            <h1>Product Layout</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              odit quasi magnam consectetur doloremque ducimus quo eveniet ab
+              impedit velit non consequatur quidem, cupiditate ullam iure,
+              voluptatem at, dolorum quia?
+            </p>
+            <a href="#" class="cta">View details</a>
+          </div>
+          <div class="portfolio-img"  data-aos="fade-left" data-aos-delay="1200">
+            <img src="./assets/img/portitem2.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="portfolio-item" >
+          <div class="portfolio-img has-margin-right"  data-aos="fade-right" data-aos-delay="1500">
+            <img src="./assets/img/portitem3.jpeg" alt="" />
+          </div>
+          <div class="portfolio-description"  data-aos="fade-left" data-aos-delay="1800">
+            <h6>Web Design</h6>
+            <h1>Product Sketch</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+              sapiente sed quasi quidem, aliquam tenetur repellendus ipsam, nemo
+              odit laboriosam tempore voluptatem minus possimus totam
+              consectetur odio expedita, dolorem soluta.
+            </p>
+            <a href="#" class="cta">View details</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-            <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>work Experience</h1>
+          <h6>past and current jobs</h6>
+        </div>
+        <div class="timeline"  data-aos="fade-down" data-aos-delay="300">
+          <ul>
+            <li class="date" data-date="2011 - Present">
+              <h1>Google</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officia iure, nostrum optio quae assumenda fugiat corrupti enim
+                voluptates porro doloribus voluptas quis quaerat maxime tempora,
+                veniam illo ipsum voluptate ab?
+              </p>
+            </li>
+            <li class="date" data-date="2011 - Present">
+              <h1>Facebook</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officia iure, nostrum optio quae assumenda fugiat corrupti enim
+                voluptates porro doloribus voluptas quis quaerat maxime tempora,
+                veniam illo ipsum voluptate ab?
+              </p>
+            </li>
+            <li class="date" data-date="2002 - 2007">
+              <h1>Microsoft</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officia iure, nostrum optio quae assumenda fugiat corrupti enim
+                voluptates porro doloribus voluptas quis quaerat maxime tempora,
+                veniam illo ipsum voluptate ab?
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-            <script src="assets/js/jquery.magnific-popup.js"></script>
-            <script src="assets/js/jquery.easing.1.3.js"></script>
-            <script src="assets/js/slick.min.js"></script>
-            <script src="assets/js/jquery.collapse.js"></script>
-            <script src="assets/js/bootsnav.js"></script>
+    
 
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+       
+      </div>
+      <p>&copy; 2019 Kevin kimiti</p>
+    </footer>
 
-            <!-- paradise slider js -->
-
-
-            <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
-            <script src="assets/js/gmaps.min.js"></script>
-
-            <script>
-                            function showmap() {
-                                var mapOptions = {
-                                    zoom: 8,
-                                    scrollwheel: false,
-                                    center: new google.maps.LatLng(-34.397, 150.644),
-                                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                                };
-                                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-                                $('.mapheight').css('height', '350');
-                                $('.maps_text h3').hide();
-                            }
-
-            </script>
-
-
-
-
-
-            <script src="assets/js/plugins.js"></script>
-            <script src="assets/js/main.js"></script>
-
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
