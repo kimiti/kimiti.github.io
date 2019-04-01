@@ -1,3 +1,6 @@
+/* Global font */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Mono');
 /*Start global*/
 * {
   margin: 0;
@@ -6,7 +9,8 @@
 }
 html {
   font-size: 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Lato', sans-serif;
+font-family: 'Roboto Mono', monospace;
   color: #eee;
 }
 body {
@@ -179,7 +183,7 @@ li {
   z-index: 1;
 }
 .landing-text h1 {
-  font-size: 20rem;
+  font-size: 10rem;
   font-family: "Courier New", Courier, monospace;
   background: linear-gradient(to top, #ffe838, #fd57bf);
   -webkit-background-clip: text;
