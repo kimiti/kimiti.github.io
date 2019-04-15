@@ -20,34 +20,41 @@
     />
   </head>
   <body>
-    <header>
-      <div class="menu-toggler">
-        <div class="bar half start"></div>
-        <div class="bar"></div>
-        <div class="bar half end"></div>
-      </div>
-      <nav class="top-nav">
-        <ul class="nav-list">
-          <li>
-            <a href="#index" class="nav-link">Home</a>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#index" class="navigation__link">Index</a>
           </li>
-          <li>
-            <a href="#about" class="nav-link">About</a>
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link">About</a>
           </li>
-          <li>
-            <a href="#services" class="nav-link">Services</a>
+          <li class="navigation__item">
+            <a href="#services" class="navigation__link"
+              >Services</a
+            >
           </li>
-          <li>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
+          <li class="navigation__item">
+            <a href="#portfolio" class="navigation__link">Portfolio</a>
           </li>
-          <li>
-            <a href="#experience" class="nav-link">Experience</a>
+          <li class="navigation__item">
+            <a href="#experience" class="navigation__link">Experience</a>
           </li>
-          <li>
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
+          <li class="navigation__item">
+              <a href="#contact" class="navigation__link">Contact</a>
+            </li>
         </ul>
       </nav>
+    </div>
+    <header>
       <div class="landing-text_left">
         <div class="landing-text ">
           <h6>Hello am</h6>
@@ -55,7 +62,8 @@
           <h6>
             A FullStack developer that loves to develop mobile and website apps
             with clean user interface that have high convertion rates. Please
-            take a look around
+            take a look around <br/>
+            <a href="#" class="btn-text">Learn more &rarr;</a>
           </h6>
         </div>
       </div>
@@ -166,9 +174,15 @@
             data-aos-delay="600"
           >
             <h6>Web Devlopemnt</h6>
-            <h1>CLOUD BASED SUBSCRIPTION AND SURVEY SERVICES FOR START-UPS COMPANIES</h1>
+            <h1>
+              CLOUD BASED SUBSCRIPTION AND SURVEY SERVICES FOR START-UPS
+              COMPANIES
+            </h1>
             <p>
-              a web app for startups to enable them to be able to mass send their email to their clients and send them a survey through the email and the feedback is then calculated and presented in a easily understandable manner i.e chart
+              a web app for startups to enable them to be able to mass send
+              their email to their clients and send them a survey through the
+              email and the feedback is then calculated and presented in a
+              easily understandable manner i.e chart
             </p>
             <a href="#" class="cta">View details</a>
           </div>
@@ -182,7 +196,8 @@
             <h6>Web Design</h6>
             <h1>INSTAGRAM CHAT-BOT</h1>
             <p>
-              enabled easy social marketing by driving traffic to social media account and increased awareness for a freelance project
+              enabled easy social marketing by driving traffic to social media
+              account and increased awareness for a freelance project
             </p>
             <a href="#" class="cta">View details</a>
           </div>
@@ -190,7 +205,6 @@
             <img src="./assets/img/portitem2.jpeg" alt="" />
           </div>
         </div>
-        
       </div>
     </section>
 
