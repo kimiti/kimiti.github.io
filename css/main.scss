@@ -1,0 +1,218 @@
+// start of global styling
+html {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+// overrall stylying for the navbar and sections
+.et-hero-tabs {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #eee;
+  text-align: center;
+  padding: 0 2em;
+}
+.et-slide {
+  height: auto;
+  padding: 10rem 0 0 0;
+}
+
+.et-slide:first-child {
+  padding: 2rem 0;
+}
+// main heading title for the sections
+.et-hero-tabs h1,
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+// sub-heading title for the section
+.et-hero-tabs h3 {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.6;
+}
+
+.et-hero-tabs h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.6;
+}
+// overrall styling for the navBar
+.et-hero-tabs-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 10;
+}
+
+.et-hero-tabs-container--top {
+  position: fixed;
+  top: 0;
+}
+
+// navigation links styling
+
+.et-hero-tab {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+//   nav link hover
+.et-hero-tab:hover {
+  color: white;
+  background: rgba(102, 177, 241, 0.8);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.et-hero-tab-slider {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background: #66b1f1;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+// RESPONSIVE MOBILE MEDIA-QUERIES SECTION
+@media (min-width: 800px) {
+  .et-hero-tabs h1,
+  .et-slide h1 {
+    font-size: 3rem;
+  }
+  .et-hero-tabs h3,
+  .et-slide h3 {
+    font-size: 1rem;
+  }
+
+  .et-hero-tab {
+    font-size: 1rem;
+  }
+}
+
+//
+// Start of services area
+//
+.section-lead {
+  max-width: 600px;
+  margin: 1rem auto 1.5rem;
+  text-align: center;
+}
+.service {
+  height: 30rem;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #e7e7e7;
+  transition: all 0.3s ease;
+  & img {
+    height: 6rem;
+  }
+}
+.service:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+.service i {
+  font-size: 3.45rem;
+  margin: 1rem 0;
+}
+.service1 i,
+.service1 h4,
+.service1 .cta {
+  color: #42b7ca;
+}
+.service1:hover {
+  border: 2px solid #42b7ca;
+}
+.service2 i,
+.service2 h4,
+.service2 .cta {
+  color: #425fca;
+}
+.service2:hover {
+  border: 2px solid #425fca;
+}
+
+.service3 i,
+.service3 h4,
+.service3 .cta {
+  color: #9c42ca;
+}
+
+.service3:hover {
+  border: 2px solid #9c42ca;
+}
+//
+// End of services area
+//
+
+//
+// begining of About Us Area area
+//
+.about-us {
+  letter-spacing: 2px;
+  line-height: 1.9rem;
+}
+
+// --------------------------
+// begin of notice section
+// =-------------------------
+.notice h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.notice h4 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+// --------------------------
+// end of notice section
+// =-------------------------
+
+// beginning of footer
+
+// end of footer
+footer {
+}
+
+// SOCIAL LINKS SECTION
+.social-links {
+  text-align: center;
+  line-height: 2.2rem;
+}
+.social-links i {
+  font-size: 1.3rem;
+}
