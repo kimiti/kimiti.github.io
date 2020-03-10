@@ -1,0 +1,70 @@
+.blog-section-heading {
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.blog-body {
+  height: 100vh;
+}
+.single-post {
+  position: relative;
+}
+
+.single-post img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.single-post .infos {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  right: 25px;
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #fff;
+  transform: translateY(50%);
+  box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.single-post .infos .title-post {
+  margin-top: -10px;
+  line-height: 0.75em;
+}
+.single-post .infos .title-post a {
+  text-decoration: none;
+  color: #404752;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.single-post .infos .by-and-date {
+  margin-bottom: 0;
+}
+.single-post .infos .by-and-date li {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 12px;
+}
+.single-post .infos .by-and-date li a {
+  text-decoration: none;
+  color: #404752;
+}
+
+.single-post .infos .by-and-date li:after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  right: -10px;
+  width: 1px;
+  height: 60%;
+  background-color: #87c3ff;
+}
+
+.single-post .infos .by-and-date li:last-child:after {
+  display: none;
+}
