@@ -161,3 +161,22 @@ a {
   font-size: 35px;
   margin-bottom: 30px;
 }
+/* portfolio-content section */
+.portfolio-slide {
+  height: 60vh;
+  position: relative;
+  background: #eee;
+  padding: 2em 2em;
+}
+.title {
+  text-align: center;
+}
+.portfolio-content-one {
+  margin-top: 13rem;
+}
+.portfolio-content-two {
+  margin-top: 13rem;
+}
+.portfolio-content-three {
+  margin-top: 13rem;
+}
