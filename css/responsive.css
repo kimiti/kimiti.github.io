@@ -1,0 +1,19 @@
+/* General selectors and styles designed to make the site look good on DESKTOP screens go here. But they affect all devices, and must be overridden by media queries targeting INCREASINGLY SMALLER screens */
+
+@media (max-width: 979px) {
+  /* Selectors and styles affecting screens UP TO 979px (Desktop) */
+}
+
+@media (max-width: 767px) {
+  /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+
+}
+
+@media (max-width: 480px) {
+  /* Selectors and styles affecting screens UP TO 480px (Phone) */
+  .et-hero-tabs {
+    background-image: url("../img/banner/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;}
+}
