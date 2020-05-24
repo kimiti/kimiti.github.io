@@ -1,201 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title></title>
 
-    <!-- SkeletonCSS  -->
-    <link rel="stylesheet" href="./vendor/SkeletonCss/normalize.css" />
-    <link rel="stylesheet" href="./vendor/SkeletonCss/skeleton.css" />
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
-    <!-- main styling sheet -->
-    <link rel="stylesheet" href="./css/main.css" />
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css" />
 
-    <!-- fontawesome icons minCSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css" />
 
-    <title>KEVIN KIMITI PORTFOLIO</title>
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
+
   <body>
-    <!-- Hero tabs main navigation  -->
-    <section class="hero-tabs">
-      <h1>SOTWARE DE<span style="color: #ffffff;">VELOPER</span> </h1>
-      <h3>Kevin Kim<span style="color: #ffffff;">iti</span></h3>
-      <div class="hero-tabs-container">
-        <a class="hero-tab" href="#home">HOME</a>
-        <a class="hero-tab" href="#">ABOUT</a>
-        <a class="hero-tab" href="#">SERVICES</a>
-        <a class="hero-tab" href="#">PORJECTS</a>
-        <a class="hero-tab" href="#">CONTACTS</a>
-        <span class="hero-tab-slider"></span>
+    <!--  ======================= Start Header Area ============================== -->
+    <header>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <section class="et-hero-tabs">
+            <h1>STICKY SLIDER NAV</h1>
+            <h3>Sliding content with sticky tab nav</h3>
+            <div class="et-hero-tabs-container">
+              <a class="et-hero-tab" href="#tab-es6">ES6</a>
+              <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
+              <a class="et-hero-tab" href="#tab-react">React</a>
+              <a class="et-hero-tab" href="#tab-angular">Angular</a>
+              <a class="et-hero-tab" href="#tab-other">Other</a>
+              <span class="et-hero-tab-slider"></span>
+            </div>
+          </section>
+        </div>
       </div>
-    </section>
-    <!-- Hero tabs end of main navigation  -->
+    </header>
+    <!--  ======================= End Header Area ============================== -->
+
     <!--  ======================= Start Main Area ================================ -->
-    <main>
-      <!--  ========================= About Area ==========================  -->
-      <section class="slide" id="home">
-        <div class="row">
-          <div class="one-half column">
-            <img class="about-image" src="./img/about-us.png" alt="" />
-          </div>
-          <div class="one-half column">
-            <div class="wrapper">
-              <h1>Let me introduce myself</h1>
-              <p>
-                I am software developer with over 5 years of work experience.A
-                Bachelor's degree in information System & Technology at USIU
-                -Africa with hands-on tech skills and a "can do" attitude, Held
-                various jobs and internships focusing on web and mobile and
-                currently working as a block-chain developer. Helped organize
-                several meetups and boot camps at school like google developer
-                festival, Andela meetup and hackathons.
-              </p>
-              <button>download cv &rarr;</button>
+
+    <main class="et-main">
+      <section class="et-slide" id="tab-es6">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <img class="about-image" src="./img/about-us.png" alt="" />
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div class="about-me-text_wrapper">
+                <h1>Let me introduce myself</h1>
+                <p>
+                  I am software developer with over 5 years of work experience.A
+                  Bachelor's degree in information System & Technology at USIU
+                  -Africa with hands-on tech skills and a "can do" attitude,
+                  Held various jobs and internships focusing on web and mobile
+                  and currently working as a block-chain developer. Helped
+                  organize several meetups and boot camps at school like google
+                  developer festival, Andela meetup and hackathons.
+                </p>
+                <button
+                  type="button"
+                  class="btn button primary-button text-uppercase"
+                >
+                  Download cv &rarr;
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!--  ========================= End About Area ==========================  -->
+      <!--  ====================== Start Services Area =============================  -->
 
-      <!--  ========================= Start of Service Area ==========================  -->
-      <section class="slide" id="home">
+      <section class="et-slide" id="tab-es6">
         <div class="container">
           <div class="row">
-            <div class="twelve column">
-              <div class="service-title">
-                <h2>My Services</h2>
-                <p class="sub-heading">
-                  immersive and responsive web development and design that have
-                  high conversion rates <br />building sites with express js,
-                  node js, mongodb ,react js
-                </p>
-              </div>
-              <div class="separator">
-                <span class="single-line-middle"></span>
-              </div>
-            </div>
-          </div>
-          <!-- new service section row -->
-          <div class="row">
-            <div class="one-third column">
-              <div class="webcoderskull-item">
-                <img src="./img/services/s1.png" alt="" />
-                <h3><a href="#">Designing</a></h3>
-                <p>
-                  immersive and responsive user interface that capture the
-                  person
-                </p>
-                <a href="" class="learn-more">Learn more &rarr;</a>
-              </div>
-            </div>
-            <div class="one-third column">
-              <div class="webcoderskull-item">
-                <img src="./img/services/s2.png" alt="" />
-                <h3><a href="#">Designing</a></h3>
-                <p>
-                  fast backend systems the are fast and perform their required
-                  functions
-                </p>
-                <a href="" class="learn-more">Learn more &rarr;</a>
-              </div>
-            </div>
-            <div class="one-third column">
-              <div class="webcoderskull-item">
-                <img src="./img/services/s3.png" alt="" />
-                <h3><a href="#">Designing</a></h3>
-                <p>
-                  mobile applications using flutter and dart,building servelss
-                  backend or fast performance and better experience
-                </p>
-                <a href="" class="learn-more">Learn more &rarr;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--  ========================= End of Service Area ==========================  -->
-      <!--  ========================= projects Area ==========================  -->
-      <section class="portfolio-slide" id="home">
-        <div class="container">
-          <div class="row">
-            <div class="twelve column">
-              <p class="title">PROJECTS</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="one-half column">
-              <img src="./img/portfolio/p1.jpg" alt="" />
-            </div>
-            <div class="one-half column">
-              <p class="portfolio-content-one">
-                a web app for startups to enable them to be able to mass send
-                their email to their clients and send them a survey through the
-                email and the feedback is then calculated and presented in a
-                easily understandable manner i.e chart
+            <div class="col-lg-12 text-center services-title">
+              <h1 class="text-uppercase title-text">Services Offers</h1>
+              <p class="para">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour
               </p>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="portfolio-slide" id="home">
-        <div class="container">
-          <div class="row">
-            <div class="one-half column">
-              <p class="portfolio-content-two">
-                a web app for startups to enable you to track your incomes and
-                expense giving you a detailed account of how your money flows
-              </p>
-            </div>
-            <div class="one-half column">
-              <img src="./img/portfolio/p2.jpg" alt="" />
+          <div class="container services-list">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="webcoderskull-item">
+                  <img src="./img/services/s1.png" alt="" />
+                  <h3><a href="#">Designing</a></h3>
+                  <p>
+                    immersive and responsive user interface that capture the
+                    person
+                  </p>
+                  <a href="" class="learn-more">Learn more &rarr;</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="webcoderskull-item">
+                  <img src="./img/services/s2.png" alt="" />
+                  <h3><a href="#">Designing</a></h3>
+                  <p>
+                    fast backend systems the are fast and perform their required
+                    functions
+                  </p>
+                  <a href="" class="learn-more">Learn more &rarr;</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="webcoderskull-item">
+                  <img src="./img/services/s3.png" alt="" />
+                  <h3><a href="#">Designing</a></h3>
+                  <p>
+                    mobile applications using flutter and dart,building servelss
+                    backend or fast performance and better experience
+                  </p>
+                  <a href="" class="learn-more">Learn more &rarr;</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="portfolio-slide" id="home">
-        <div class="container">
-          <div class="row">
-            <div class="one-half column">
-              <img src="./img/portfolio/p3.jpg" alt="" />
-            </div>
-            <div class="one-half column">
-              <p class="portfolio-content-three">
-                social networking site for developers
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--  ========================= End of projects Area ==========================  -->
+      <!--  ====================== End Services Area =============================  -->
     </main>
-  <!-- Footer -->
-  <footer id="main-footer" class="grid">
-                
-    <div>kevin kimiti Social Media
-    <p>
-        <ul id="social">
-            <li><a href="" class="fa fa-twitter"></a></li>
-            <li><a href="" class="fa fa-linkedin"></a></li>
-            <!--<li><a href="#" class="fa fa-github"></a></li>-->
-            <li><a href="" class="fa fa-paypal"></a></li>
-            <li><a href="" class="fa fa-envelope"></a></li>
-        </ul>
-    </p>
-    </div>
-    <div>Project By
-        <a href="" target="_blank">Kevin Kimiti</a>
-            <p>KEVIN KIMITI | Copyright &copy; 2020</p>
-    </div>
-</footer>
-    <!--  Jquery js file  -->
-    <script src="./js/jquery.3.4.1.js"></script>
-
-    <!--  custom js file  -->
-    <script src="./js/main.js"></script>
   </body>
 </html>
