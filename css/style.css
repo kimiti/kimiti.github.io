@@ -1,5 +1,5 @@
 body {
-  font-family: "Century Gothic", 'Lato', sans-serif !important;
+  font-family: "Century Gothic", "Lato", sans-serif !important;
   overflow-x: hidden;
 }
 
@@ -78,16 +78,16 @@ a {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: #66B1F1;
+  background: #66b1f1;
   transition: left 0.3s ease;
 }
 
 /* End Banner Area */
 /* main section body */
-.et-slide{
+.et-slide {
   height: auto;
- position: relative;
- background: #eee;
+  position: relative;
+  background: #eee;
 }
 .about-image {
   padding: 30px;
@@ -107,7 +107,7 @@ a {
 }
 
 .about-me-text_wrapper p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 2rem;
   font-weight: 100;
   letter-spacing: 0.1rem;
@@ -116,6 +116,15 @@ a {
 /* end of about Area */
 
 /* Services Area */
+.services-title {
+  padding: 5rem 0;
+}
+.services-title p {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
 
 .webcoderskull-item {
   height: 25rem;
@@ -131,4 +140,54 @@ a {
 .webcoderskull-item:hover {
   box-shadow: 0 14px 28px rgba(114, 120, 220, 0.25),
     0 10px 10px rgba(114, 120, 220, 0.22);
+}
+
+/* enf of Services Area */
+
+/* project Area */
+.project-conten-1 {
+  
+  margin-top: 100rem;
+}
+.project-content-2 {
+  margin-top: 10rem;
+}
+.project-content-3 {
+  margin-top: 10rem;
+}
+
+/* end of project Area */
+
+/*  */
+/* footer */
+/*  */
+#main-footer {
+  padding-top: 2em;
+  padding-bottom: 0;
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
+ul#social li {
+  display: inline;
+}
+
+.fa {
+  padding-bottom: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 5px;
+  float: auto;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
