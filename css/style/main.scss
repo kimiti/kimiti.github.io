@@ -12,10 +12,12 @@ a {
 /* start navigation */
 
 .et-hero-tabs {
+  background-color: #182c61;
   background-image: url("../../img/banner/banner-image.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 40%;
   background-position: right;
+  background-position-x: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,6 +41,25 @@ a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .et-hero-tabs {
+    background-size: contain;
+
+    h1 {
+      background-color: rgba(0, 0, 0, 0.01);
+      font-size: 2rem;
+      margin: 0;
+      letter-spacing: 1rem;
+      color: #f9ca24;
+    }
+    h3 {
+      font-size: 1rem;
+      letter-spacing: 0.3rem;
+      background-color: rgba(0, 0, 0, 0.01);
+      color: #f9ca24;
+    }
+  }
+}
 .et-hero-tabs-container {
   display: flex;
   flex-direction: row;
