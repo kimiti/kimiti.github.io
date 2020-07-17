@@ -25,14 +25,17 @@ a {
   text-align: center;
   position: relative;
   h1 {
+    background-color: rgba(0, 0, 0, 0.01);
     font-size: 2rem;
     margin: 0;
     letter-spacing: 1rem;
+    color: #f9ca24;
   }
   h3 {
     font-size: 1rem;
     letter-spacing: 0.3rem;
-    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.01);
+    color: #f9ca24;
   }
 }
 
@@ -104,6 +107,11 @@ a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .about-details {
+    text-align: center;
+  }
+}
 /* Services Area */
 
 .webcoderskull-item {
