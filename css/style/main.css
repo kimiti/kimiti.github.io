@@ -140,6 +140,12 @@ a {
   .about-details {
     text-align: center;
   }
+  .about-details h3 {
+    opacity: 0.7;
+  }
+  .site-buttons {
+    text-align: center;
+  }
 }
 
 /* Services Area */
