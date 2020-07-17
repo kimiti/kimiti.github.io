@@ -124,7 +124,7 @@ a {
 }
 
 .et-slide h3 {
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-size: 1rem;
   letter-spacing: 0.3rem;
   padding: 10px 0;
@@ -233,6 +233,10 @@ a {
   position: absolute;
   left: -38px;
   top: 50%;
+}
+
+.timeline-icon i {
+  font-size: 2.5rem;
 }
 
 .main-timeline .timeline-icon:before,
