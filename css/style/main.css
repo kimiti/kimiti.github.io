@@ -137,6 +137,9 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  .banner-image img {
+    display: block;
+  }
   .about-details {
     text-align: center;
   }
@@ -186,7 +189,15 @@ a {
   clear: both;
 }
 
+.timeline {
+  border-radius: 20px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(114, 120, 220, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(114, 120, 220, 0.22);
+}
+
 .main-timeline .timeline {
+  -webkit-box-shadow: 0 14px 28px rgba(114, 120, 220, 0.25), 0 10px 10px rgba(114, 120, 220, 0.22);
+          box-shadow: 0 14px 28px rgba(114, 120, 220, 0.25), 0 10px 10px rgba(114, 120, 220, 0.22);
   width: 50%;
   margin: 0 0 20px 20px;
   float: right;
