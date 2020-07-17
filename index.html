@@ -1,94 +1,93 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KEVIN KIMITI PORTFOLIO</title>
 
   <!--  Bootstrap css file  -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/vendor/bootstrap.min.css" />
 
   <!--  font awesome icons  -->
-  <link rel="stylesheet" href="./css/all.min.css" />
-
-  <!--  custom css file  -->
-  <link rel="stylesheet" href="./css/style.css" />
-
-  <!--  Responsive css file  -->
-  <link rel="stylesheet" href="./css/responsive.css" />
-
-  <!-- fontawesome icons minCSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
+  <!--  custom css file  -->
+  <link rel="stylesheet" href="./css/style/main.css" />
 </head>
 
 <body>
   <!--  ======================= Start Header Area ============================== -->
-  <header>
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <section class="et-hero-tabs">
-          <h1>SOTWARE DE<span style="color: #ffffff;">VELOPER</span></h1>
-          <h3>Kevin Kim<span style="color: #ffffff;">iti</span></h3>
-          <div class="et-hero-tabs-container">
-            <a class="et-hero-tab" href="#tab-es6">HOME</a>
-            <a class="et-hero-tab" href="#tab-flexbox">ABOUT-ME</a>
-            <a class="et-hero-tab" href="#tab-react">SERVICES</a>
-            <a class="et-hero-tab" href="#tab-angular">PROJECTS</a>
-            <a class="et-hero-tab" href="#tab-other">CONTACT-ME</a>
-            <span class="et-hero-tab-slider"></span>
-          </div>
-        </section>
-      </div>
+
+  <!-- Hero -->
+  <section class="et-hero-tabs">
+    <h1>KEVIN KIMITI</h1>
+    <h3>Software Developer</h3>
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#tab-es6">ABOUT-ME </a>
+      <a class="et-hero-tab" href="#tab-flexbox">SERVICES</a>
+      <a class="et-hero-tab" href="#tab-react">PROJECTS</a>
+      <a class="et-hero-tab" href="#tab-other">CONTACT-ME</a>
+      <span class="et-hero-tab-slider"></span>
     </div>
-  </header>
+  </section>
+
   <!--  ======================= End Header Area ============================== -->
 
   <!--  ======================= Start Main Area ================================ -->
 
   <main class="et-main">
+    <!--  ========================= About Area ==========================  -->
+
     <section class="et-slide" id="tab-es6">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-            <img class="about-image" src="./img/about-us.png" alt="" />
+          <div class="col-lg-6 col-md-12 banner-image">
+            <img src="./img/about-us.png" alt="banner-img" class="img-fluid" />
           </div>
-          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-            <div class="about-me-text_wrapper">
-              <h1>Let me introduce myself</h1>
-              <p>
-                I am software developer with over 5 years of work experience.A
-                Bachelor's degree in information System & Technology at USIU
-                -Africa with hands-on tech skills and a "can do" attitude,
-                Held various jobs and internships focusing on web and mobile
-                and currently working as a block-chain developer. Helped
-                organize several meetups and boot camps at school like google
-                developer festival, Andela meetup and hackathons.
-              </p>
-              <button type="button" class="btn button primary-button text-uppercase">
-                <a href="./cv/kimiti cv.pdf" download>
-                  Download cv &rarr;
-                </a>
-
-              </button>
+          <div class="col-lg-6 col-md-12 site-title">
+            <h3 class="title-text">Hey</h3>
+            <h3 class="title-text text-uppercase">I am Kevin Kimiti</h3>
+            <h4 class="title-text text-uppercase">
+              A Software Developer
+            </h4>
+            <h3>
+              with over 5 years of work experience.A Bachelor's degree in
+              information System & Technology at USIU -Africa with hands-on
+              tech skills and a "can do" attitude, Held various jobs and
+              internships focusing on web and mobile and currently working as
+              a block-chain developer. Helped organize several meetups and
+              boot camps at school like google developer festival, Andela
+              meetup and hackathons.
+            </h3>
+            <div class="site-buttons">
+              <div class="d-flex flex-row flex-wrap">
+                <button class="btn button secondary-button text-uppercase">
+                  <a href="#" download>
+                    Download cv &rarr;
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!--  ========================= End About Area ==========================  -->
+
     <!--  ====================== Start Services Area =============================  -->
 
-    <section class="et-slide" id="tab-es6">
+    <section class="et-slide" id="tab-flexbox">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center services-title">
             <h1 class="text-uppercase title-text">My Services</h1>
-            <p class="para">
+            <h3 class="para">
               immersive and responsive web development and design that have
               high conversion rates <br />building sites with express js, node
               js, mongodb ,react js
-            </p>
+            </h3>
           </div>
         </div>
         <div class="container services-list">
@@ -97,10 +96,10 @@
               <div class="webcoderskull-item">
                 <img src="./img/services/s1.png" alt="" />
                 <h3><a href="#">Front-End Design</a></h3>
-                <p>
+                <h4>
                   immersive and responsive user interface that capture the
                   person
-                </p>
+                </h4>
                 <!-- <a href="" class="learn-more">Learn more &rarr;</a> -->
               </div>
             </div>
@@ -108,10 +107,10 @@
               <div class="webcoderskull-item">
                 <img src="./img/services/s2.png" alt="" />
                 <h3><a href="#">Back-End Design</a></h3>
-                <p>
+                <h4>
                   fast backend systems the are fast and perform their required
                   functions
-                </p>
+                </h4>
                 <!-- <a href="" class="learn-more">Learn more &rarr;</a> -->
               </div>
             </div>
@@ -119,10 +118,10 @@
               <div class="webcoderskull-item">
                 <img src="./img/services/s3.png" alt="" />
                 <h3><a href="#">Mobile Development</a></h3>
-                <p>
+                <h4>
                   mobile applications using flutter and dart,building servelss
                   backend or fast performance and better experience
-                </p>
+                </h4>
                 <!-- <a href="" class="learn-more">Learn more &rarr;</a> -->
               </div>
             </div>
@@ -130,102 +129,117 @@
         </div>
       </div>
     </section>
+
     <!--  ====================== End Services Area =============================  -->
-    <!--  ====================== start Prorjects Area =============================  -->
 
-    <section class="bg">
-      <div class="row">
-        <div class="col-lg-12 text-center projects-title">
-          <h1 class="text-uppercase title-text">My Projects</h1>
-          <p class="para">
-            immersive and responsive web development and design that have
-            high conversion rates <br />building sites with express js, node
-            js, mongodb ,react js
-          </p>
-        </div>
-      </div>
-      <div class="container">
-
-        <div class="row py-5">
-          <div class="col-md-12">
-            <div class="main-timeline">
-              <div class="timeline">
-                <a href="#" class="timeline-content">
-                  <div class="timeline-icon">
-                    <i class="fa fa-globe"></i>
-                  </div>
-                  <h3 class="title">EMAIL MARKETING WEB APPLICATION </h3>
-                  <p class="description">
-                    a web app for startups to enable them to be able to mass send their email to their clients and send them a survey through the email and the
-                    feedback is then calculated and presented in a easily understandable manner i.e chart
-                  </p>
-                  <div class="timeline-icons_right">
-                    <i class="fa fa-github"></i>
-                    <i class="fa fa-desktop"></i>
-                    <i class="fa fa-globe"></i>
-                  </div>
-
-                </a>
-              </div>
-              <div class="timeline">
-                <a href="#" class="timeline-content">
-                  <div class="timeline-icon">
-                    <i class="fa fa-rocket"></i>
-                  </div>
-                  <h3 class="title">Social web app</h3>
-                  <p class="description">
-                    social media web application made with react redux node
-                  </p>
-                  <div class="timeline-icons_left">
-                    <i class="fa fa-github"></i>
-                    <i class="fa fa-desktop"></i>
-                    <i class="fa fa-globe"></i>
-                  </div>
-                </a>
-              </div>
-              <div class="timeline">
-                <a href="#" class="timeline-content">
-                  <div class="timeline-icon">
-                    <i class="fa fa-user"></i>
-                  </div>
-                  <h3 class="title">finance expense tracker</h3>
-                  <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                  </p>
-                  <div class="timeline-icons_right">
-                    <i class="fa fa-github"></i>
-                    <i class="fa fa-desktop"></i>
-                    <i class="fa fa-globe"></i>
-                  </div>
-                </a>
-              </div>
-              <div class="timeline">
-                <span href="#" class="timeline-content">
-                  <div class="timeline-icon">
-                    <i class="fa fa-briefcase"></i>
-                  </div>
-                  <h3 class="title">Neema Hospital Website</h3>
-                  <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et condimentum neque commodo
-                  </p>
-                  <div class="timeline-icons_left">
-                   <a href=" "> <i class="fa fa-github">  </i></a> 
-                 <a href="./projects/Neema/index.html" target="_blank"><i class="fa fa-desktop"></i> </a> 
-                  <i class="fa fa-globe"></i>
-                  </div>
-                </span>
+    <section class="et-slide" id="tab-react">
+      <div class="bg">
+        <div class="container">
+          <div class="col-lg-12 text-center projects-title">
+            <h1 class="text-uppercase title-text">My Projects</h1>
+            <h3 class="para">
+              immersive and responsive web development and design that have
+              high conversion rates <br />building sites with express js, node
+              js, mongodb ,react js
+            </h3>
+          </div>
+          <div class="row py-5">
+            <div class="col-md-12">
+              <div class="main-timeline">
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <div class="timeline-icon">
+                      <i class="fa fa-globe"></i>
+                    </div>
+                    <h3 class="title">Web Designing</h3>
+                    <h3 class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et
+                      condimentum neque commodo
+                      <div class="project_icons">
+                        <i class="fa fa-github"></i>
+                        <i class="fa fa-globe"></i>
+                      </div>
+                    </h3>
+                  </a>
+                </div>
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <div class="timeline-icon">
+                      <i class="fa fa-rocket"></i>
+                    </div>
+                    <h3 class="title">Web Development</h3>
+                    <h3 class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et
+                      condimentum neque commodo
+                      <div class="project_icons">
+                        <i class="fa fa-github"></i>
+                        <i class="fa fa-globe"></i>
+                      </div>
+                    </h3>
+                    
+                  </a>
+                </div>
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <div class="timeline-icon">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <h3 class="title">Java Script</h3>
+                    <h3 class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et
+                      condimentum neque commodo
+                      <div class="project_icons">
+                        <i class="fa fa-github"></i>
+                        <i class="fa fa-globe"></i>
+                      </div>
+                    </h3>
+                  </a>
+                </div>
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <div class="timeline-icon">
+                      <i class="fa fa-briefcase"></i>
+                    </div>
+                    <h3 class="title">Web Designing</h3>
+                    <h3 class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer males uada tellus lorem, et
+                      condimentum neque commodo
+                      <div class="project_icons">
+                        <i class="fa fa-github"></i>
+                        <i class="fa fa-globe"></i>
+                      </div>
+                    </h3>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--  ========================= End of projects Area ==========================  -->
+    <section class="et-slide" id="tab-angular">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <h1>Angular</h1>
+          <h3>something about angular</h3>
+        </div>
+      </div>
+    </section>
+    <section class="et-slide" id="tab-other">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <h1>Other</h1>
+          <h3>something about other</h3>
+        </div>
+      </div>
+    </section>
   </main>
-  <!-- Footer -->
+  <!--  ======================= End Main Area ================================ -->
+
   <footer id="main-footer" class="grid">
 
-    <div>kevin kimiti Social Media
+    <div>
+     <p> kevin kimiti portfolio </p>
       <p>
       <ul id="social">
         <li><a href="" class="fa fa-github"></a></li>
@@ -234,11 +248,23 @@
       </ul>
       </p>
     </div>
-    <div>Project By
-      <a href="" target="_blank">Kevin Kimiti</a>
+    <div>
+      <p> Project By
+      <a href="" target="_blank">Kevin Kimiti</a></p>
       <p>KEVIN KIMITI | Copyright &copy; 2020</p>
     </div>
   </footer>
+
+
+
+  <!--  Jquery js file  -->
+  <script src="./js/jquery.3.4.1.js"></script>
+
+  <!--  Bootstrap js file  -->
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!--  custom js file  -->
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
