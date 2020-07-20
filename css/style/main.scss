@@ -143,7 +143,16 @@ a {
   }
 }
 /* Services Area */
+.service-skills {
+  text-align: center;
+}
+.service-skills p {
+  margin: 3px 0;
+}
 
+.service-skills :first-child {
+  margin-top: 1rem;
+}
 .webcoderskull-item {
   height: 25rem;
 
