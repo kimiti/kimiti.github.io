@@ -135,8 +135,8 @@ a {
 
 .site-title p {
   font-size: 1.2rem;
-  letter-spacing: 0.3rem;
-  line-height: 1.5rem;
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
 }
 
 .banner-image > img {
@@ -211,7 +211,7 @@ img {
 
 .section_title p {
   color: #333333;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
   padding: 14px 0;
 }
@@ -302,6 +302,11 @@ img {
   width: 50%;
   margin: 0 0 20px 20px;
   float: right;
+}
+
+.main-timeline .timeline:hover {
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .main-timeline .timeline-content {
@@ -445,6 +450,7 @@ img {
 
 /* Footer Area */
 footer {
+  height: 25vh;
   color: #fff;
   background-color: #30336b;
 }
