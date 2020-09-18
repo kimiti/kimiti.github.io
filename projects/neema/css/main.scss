@@ -227,9 +227,13 @@ li {
 
 /*Footer start*/
 footer {
+  letter-spacing: 2px;
   margin-top: 3rem;
   height: 56vh;
   background-color: #f0932b;
+}
+footer ul li:first-child {
+  font-weight: bold;
 }
 .footer-copyright {
   margin-top: -10rem;
