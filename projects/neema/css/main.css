@@ -1,1 +1,259 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/*general styling*/
+li {
+  list-style: none;
+}
+
+/* start navigation */
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar .navbar-brand img {
+  height: 4rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: #000000;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: orange;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: orange;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* end navigation */
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .subscribe-us-area .subscribe .subscribe-title,
+  .site-main .subscribe-us-area .subscribe .subscribe-title p,
+  h4,
+  .site-main .services-area,
+  .site-main .subscribe-us-area .subscribe {
+    padding: 2%;
+    margin: 0%;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 15rem !important;
+  }
+  .site-main > .services-area .services {
+    width: 13rem;
+  }
+}
+
+/* Start carosel  Styling */
+.carousel-caption {
+  position: absolute;
+  top: 45%;
+  letter-spacing: 0.1rem;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+}
+
+.carousel-caption p {
+  font-size: 1.1rem;
+}
+
+/* End carosel  Styling */
+/* Start Section Header Styling */
+.section_title {
+  margin-bottom: 40px;
+}
+
+.section_title h2 {
+  color: #333333;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.section_title p {
+  color: #333333;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 14px 0;
+}
+
+.choose_us .section_title {
+  margin-top: 45px;
+}
+
+.brand_border .fa.fa-minus {
+  color: #fff;
+  font-size: 8px;
+  height: 2px;
+  background: #f8c01b none repeat scroll 0 0;
+  width: 100px;
+}
+
+.brand_border .fas.fa-handshake {
+  font-size: 14px;
+  color: #000000;
+}
+
+/* End Section Header Styling */
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
+}
+
+/* Services Area */
+.card {
+  margin: 2rem 0px;
+  border-radius: 10px !important;
+  overflow: hidden;
+  height: 31rem;
+  width: 100% !important;
+  border-radius: 3px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 9px 56px -19px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 9px 56px -19px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    height: 35rem;
+  }
+}
+
+.card .card-body {
+  padding: 1rem 3rem;
+}
+
+.card .card-body h5 {
+  color: orange;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.card .card-body p {
+  letter-spacing: 2px;
+}
+
+/* End Services Area */
+/* Start About Area */
+.about_us {
+  margin-top: 8rem !important;
+}
+
+.single_service {
+  width: 100% !important;
+  border: dotted 1px #000000;
+  padding: 32px;
+  margin-bottom: 50px;
+}
+
+.single_service:hover {
+  border: none;
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+  border: 1px solid #666;
+  border-radius: 5%;
+  color: #333333;
+  font-size: 35px;
+  line-height: 65px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  width: 70px;
+}
+
+.single_service .single_service-left {
+  padding-right: 25px;
+}
+
+.single_service-heading {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.single_service-body p {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.single_service-left {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.single_service-body {
+  color: #333333;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.hvr-curl-top-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px transparent;
+          box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+
+.single_service:hover {
+  background: #f8c01b none repeat scroll 0 0;
+}
+
+.feture_project img {
+  border-radius: 5px;
+  height: 10rem;
+  width: 10rem;
+}
+
+/* End About Area */
+/*Footer start*/
+footer {
+  margin-top: 3rem;
+  height: 56vh;
+  background-color: #f0932b;
+}
+
+.footer-copyright {
+  margin-top: -10rem;
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 768px) {
+  footer {
+    height: 160vh;
+  }
+}
+
+footer li {
+  line-height: 2rem;
+}
+
+/*End Footer*/
+/*# sourceMappingURL=main.css.map */
