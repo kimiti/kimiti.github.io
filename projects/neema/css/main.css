@@ -61,6 +61,14 @@ li {
 }
 
 /* Start carosel  Styling */
+.carousel {
+  background-color: #000000;
+}
+
+.carousel-inner img {
+  opacity: 0.5;
+}
+
 .carousel-caption {
   position: absolute;
   top: 45%;
@@ -232,11 +240,15 @@ li {
   width: 10rem;
 }
 
+.neema-feture-project {
+  margin-top: 5rem;
+}
+
 /* End About Area */
 /*Footer start*/
 footer {
   letter-spacing: 2px;
-  margin-top: 3rem;
+  margin-top: 10rem;
   height: 56vh;
   background-color: #f0932b;
 }

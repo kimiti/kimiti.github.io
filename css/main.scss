@@ -7,6 +7,9 @@ body {
 a {
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
 
 /* Banner Area */
 
@@ -333,3 +336,24 @@ a {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+/*start about me*/
+.et-slide .section_title_body p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+/* Start Project */
+.card {
+  box-shadow: 5px 5px 15px rgba(#602566, 0.5);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20rem;
+}
+/*end Project*/
+
+/*Footer*/
+footer {
+  margin-top: 5rem;
+}
+
+/*Footer*/

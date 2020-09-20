@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 /* Banner Area */
 .et-hero-tabs {
   display: -webkit-box;
@@ -349,4 +353,28 @@ a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
+/*start about me*/
+.et-slide .section_title_body p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+
+/* Start Project */
+.card {
+  -webkit-box-shadow: 5px 5px 15px rgba(96, 37, 102, 0.5);
+          box-shadow: 5px 5px 15px rgba(96, 37, 102, 0.5);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20rem;
+}
+
+/*end Project*/
+/*Footer*/
+footer {
+  margin-top: 5rem;
+}
+
+/*Footer*/
 /*# sourceMappingURL=main.css.map */
