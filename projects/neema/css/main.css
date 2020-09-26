@@ -135,7 +135,7 @@ li {
 
 /* Services Area */
 .card {
-  margin: 2rem 0px;
+  margin: 2rem auto;
   border-radius: 10px !important;
   overflow: hidden;
   height: 35rem;
