@@ -140,7 +140,7 @@ li {
   margin: 2rem 0px;
   border-radius: 10px !important;
   overflow: hidden;
-  height: 31rem;
+  height: 35rem;
   width: 100% !important;
   border-radius: 3px;
   overflow: hidden;
@@ -148,7 +148,7 @@ li {
   -moz-box-shadow: 2px 9px 56px -19px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 9px 56px -19px rgba(0, 0, 0, 0.75);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .card {
     height: 37rem;
   }
