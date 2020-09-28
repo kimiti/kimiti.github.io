@@ -75,12 +75,13 @@ li {
 
 .carousel-caption {
   position: absolute;
-  top: 45%;
+  top: 35%;
   letter-spacing: 0.1rem;
 }
 
 .carousel-caption h5 {
-  font-size: 2rem;
+  font-size: 3rem;
+  letter-spacing: 5px;
 }
 
 .carousel-caption p {
@@ -135,7 +136,7 @@ li {
 
 /* Services Area */
 .card {
-  margin: 2rem auto;
+  margin: 2rem 0px;
   border-radius: 10px !important;
   overflow: hidden;
   height: 35rem;
@@ -262,10 +263,6 @@ footer ul li:first-child {
   font-weight: bold;
 }
 
-.footer-copyright {
-  margin-top: -10rem;
-}
-
 /* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 768px) {
   footer {
@@ -278,4 +275,26 @@ footer li {
 }
 
 /*End Footer*/
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 50vh;
+  width: 100%;
+  margin-left: -20%;
+}
+
+@media only screen and (max-width: 720px) {
+  .mapouter {
+    margin-left: 0%;
+  }
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 50vh;
+  width: 100%;
+}
+
+/* if the viewport is equal to 340px or less than that */
 /*# sourceMappingURL=main.css.map */
