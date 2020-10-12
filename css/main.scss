@@ -343,11 +343,17 @@ a {
   line-height: 2rem;
 }
 /* Start Project */
+.blockchain-proj {
+  margin: 50px auto;
+}
+.blockchain-proj h3 {
+  font-weight: bold;
+}
 .card {
   box-shadow: 5px 5px 15px rgba(#602566, 0.5);
   border-radius: 5px;
   overflow: hidden;
-  height: 20rem;
+  height: 25rem;
 }
 /*end Project*/
 

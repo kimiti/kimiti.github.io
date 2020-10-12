@@ -362,12 +362,20 @@ a {
 }
 
 /* Start Project */
+.blockchain-proj {
+  margin: 50px auto;
+}
+
+.blockchain-proj h3 {
+  font-weight: bold;
+}
+
 .card {
   -webkit-box-shadow: 5px 5px 15px rgba(96, 37, 102, 0.5);
           box-shadow: 5px 5px 15px rgba(96, 37, 102, 0.5);
   border-radius: 5px;
   overflow: hidden;
-  height: 20rem;
+  height: 25rem;
 }
 
 /*end Project*/
